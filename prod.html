@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trendify | Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">🛍️ Trendify</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="prod.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+  </ul>
+</nav>
+
+<section class="products">
+  <h2>Our Best Picks</h2>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29ueSUyMGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" alt="Headphones">
+      <h3>Pro Headphones</h3>
+      <p>Rs 1500</p>
+      <button onclick="addToCart('Pro Headphones')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/51bCiZ8AAJL.jpg" alt="Smart Watch">
+      <h3>Smart Watch</h3>
+      <p>Rs 1800</p>
+      <button onclick="addToCart('Smart Watch')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://contents.mediadecathlon.com/p2571169/37e061008040ca60d28c582c97d68627/p2571169.jpg" alt="Backpack">
+      <h3>Urban Backpack</h3>
+      <p>Rs 2000</p>
+      <button onclick="addToCart('Urban Backpack')">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>© 2025 Trendify. All rights reserved.</footer>
+<script src="cart.js"></script>
+</body>
+</html>
